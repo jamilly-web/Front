@@ -3,8 +3,8 @@ import axios from "axios";
 const instance = axios.create({
   baseURL: "https://parseapi.back4app.com",
   headers: {
-    "X-Parse-Application-Id": "JYknWGUo6qYhDc3g8hvgQUvITZyz4KFAUttpAxVF",
-    "X-Parse-REST-API-Key": "uyhRDxFMCkxfy4hBJavBNlu48oSRdLEmxxZGrog4",
+    "X-Parse-Application-Id": "",
+    "X-Parse-REST-API-Key": "",
   },
 });
 const headerJson = { "Content-Type": "application/json" };
